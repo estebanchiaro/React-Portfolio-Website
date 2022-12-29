@@ -18,10 +18,10 @@ import {useState} from 'react'
 function index() {
     const [darkmode, setdarkmode] = useState(false)
   return (
-    <div className={darkmode ? "dark" : ""}>
-    <main className="bg-white md:px-20 lg:px-40 dark:bg-gray-900">
+    <div className= {darkmode ? "dark sm:w-full" : "sm:w-full"}>
+    <main className="bg-white lg:px-40 dark:bg-gray-900 sm:w-full sm:h-full">
       <section className="min-h-screen">
-        <nav className="flex justify-between py-5 px-5">
+        <nav className="flex justify-between py-3">
           <h1 className="text-l dark:text-cyan-50">Developed By Esteban</h1>
           <ul className="flex items-center">
             <li>
