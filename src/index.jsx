@@ -31,7 +31,7 @@ function index() {
               </li>
               <li>
                 <a
-                  href='../public/public/resume.docx'
+                  href='/React-Portfolio-Website/public/public/resume.docx'
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 >
                   Resume
