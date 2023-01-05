@@ -10,6 +10,7 @@ import rmapi from "../public/public/rmapi.webp";
 import mario from "../public/public/mario.jpg";
 import Projects from "./projects";
 import me from "../public/public/me2.jpg";
+import avatar from '../public/public/avatar1.png'
 
 import { useState } from "react";
 
@@ -51,7 +52,7 @@ function index() {
               focus on web development and front end technologies
             </p>
           </div>
-          <div className="text-6xl flex justify-center gap-10 text-black-800 cursor-pointer animate-pulse dark:text-cyan-50">
+          <div className="mb-0 text-6xl flex justify-center gap-10 text-black-800 cursor-pointer animate-pulse dark:text-cyan-50">
             <a href="https://www.linkedin.com/in/esteban-chiaromonte-1628701a0/">
               <AiFillLinkedin />
             </a>
@@ -60,16 +61,16 @@ function index() {
               <AiFillGithub />
             </a>
           </div>
-          <div className="relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden md:w-96 md:h-96">
+          <div className="relative mt-0 py-0 mx-auto rounded-full w-80 h-80 overflow-hidden md:w-96 md:h-96">
             <img
-              src={me}
-              className="rounded-full scale-150 py-10 hover:scale-125
+              src={avatar}
+              className="mt-0 scale-75 hover:scale-100
     transition delay-150 duration-300 ease-in-out"
             />
           </div>
         </section>
 
-        <section className="shadow-lg p-4 rounded-xl">
+        <section className="shadow-lg rounded-xl">
           <div>
             <h3 className="text-3xl dark:text-cyan-50">About Me</h3>
             <p className="py-5 leading-6 text-gray-800 dark:text-cyan-50">
