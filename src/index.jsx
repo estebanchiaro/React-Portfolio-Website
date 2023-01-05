@@ -31,7 +31,7 @@ function index() {
               </li>
               <li>
                 <a
-                  href="./public/Esteban+Chiaromonte+coding.docx"
+                  href="../public/public/resume.docx"
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 >
                   Resume
@@ -64,7 +64,7 @@ function index() {
           <div className="relative mt-0 py-0 mx-auto rounded-full w-80 h-80 overflow-hidden md:w-96 md:h-96">
             <img
               src={avatar}
-              className="mt-0 scale-75 hover:scale-100
+              className="mt-0 scale-100 hover:scale-75
     transition delay-150 duration-300 ease-in-out"
             />
           </div>
