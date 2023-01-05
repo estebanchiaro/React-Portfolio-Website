@@ -9,8 +9,8 @@ import todoList from "../public/public/todoList.jpg";
 import rmapi from "../public/public/rmapi.webp";
 import mario from "../public/public/mario.jpg";
 import Projects from "./projects";
-import me from "../public/public/me2.jpg";
 import avatar from '../public/public/avatar1.png'
+import resume from '../public/public/resume.docx'
 
 import { useState } from "react";
 
@@ -31,7 +31,7 @@ function index() {
               </li>
               <li>
                 <a
-                  href="../public/public/resume.docx"
+                  href={resume}
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 >
                   Resume
