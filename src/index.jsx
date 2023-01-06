@@ -8,8 +8,9 @@ import memoryGame from "../public/public/memoryGame.webp";
 import todoList from "../public/public/todoList.jpg";
 import rmapi from "../public/public/rmapi.webp";
 import mario from "../public/public/mario.jpg";
-import Projects from "./projects";
+import Projects from "./Projects";
 import avatar from '../public/public/avatar1.png'
+import Contact from './Contact'
 
 
 import { useState } from "react";
@@ -26,7 +27,7 @@ function index() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setdarkmode(!darkmode)}
-                  className="cursor-pointer text-xl dark:text-cyan-50"
+                  className="cursor-pointer text-3xl dark:text-cyan-50"
                 />
               </li>
               <li>
@@ -143,6 +144,12 @@ function index() {
               link={"https://estebanchiaro.github.io/Mario-Matching-Game1.1/"}
             />
           </div>
+        </section>
+
+        <section className="shadow-lg rounded">
+       
+        
+        <Contact/>
         </section>
       </main>
     </div>
