@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section className="mb-14">
       <div className="text-center p-10">
-        <h2 className="text-4xl py-2 text-teal-600 font-extrabold">
+        <h2 className="text-3xl py-2 text-teal-600 font-extrabold">
           Esteban Chiaromonte
         </h2>
         <h3 className="text-2xl py-2 dark:text-cyan-50">Software Developer</h3>

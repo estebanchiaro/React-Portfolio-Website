@@ -7,7 +7,7 @@ export function About() {
     <section className="shadow-lg rounded-xl">
           <div>
             <h3 className="text-3xl dark:text-cyan-50 font-semibold">About Me</h3>
-            <div className='xl: text-xl font-semibold sm:ml-5 mr-5'>
+            <div className='xl: text-xl  sm:ml-5 mr-5'>
             <p className="py-5 leading-6 text-gray-800 dark:text-cyan-50">
               Innovative tech mind with 2 years of experience learning as a web developer.
               <span className="text-teal-500">
@@ -19,7 +19,7 @@ export function About() {
               developing solutions.
             </p>
 
-            <p className="py-6 leading-6 text-gray-800 dark:text-cyan-50 text-2xl">
+            <p className="py-6 leading-6 text-gray-800 dark:text-cyan-50 text-2xl font-semibold">
               <div className='mb-4'>Programming languages: </div> 
               <div className='mb-2'>HTML</div> 
               <div className='mb-2'>CSS</div> 

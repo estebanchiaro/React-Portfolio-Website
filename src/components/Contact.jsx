@@ -20,44 +20,47 @@ export function Contact() {
               {/* <!-- form: name --> */}
               <div className='py-4 dark:text-cyan-50' >
                 <input
-                className='rounded-full w-full hover:scale-125 transition delay-100 duration-300 ease-in-out'
+                className='rounded-full w-80 hover:scale-110 transition delay-100 duration-300 ease-in-out'
                   id="name"
                   type="text"
                   placeholder="Enter your name..."
                   required
                   name="name"
                 />
+                <br />
                 <label htmlFor="name">Full name</label>
               </div>
   
               {/* <!-- form: email --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full w-full'
+                className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
                   id="email"
                   type="email"
                   placeholder="name@example.com"
                   name="email"
                   required
-                /><label htmlFor="email">Email address</label>
+                />
+                <br /><label htmlFor="email">Email address</label>
               </div>
   
               {/* <!-- form: phone number --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full w-full'
+                  className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
                   id="phone"
                   type="tel"
                   placeholder="(123) 456-7890"
                   name="phone"
                   required
-                /><label htmlFor="phone">Phone number</label>
+                />
+                <br /><label htmlFor="phone">Phone number</label>
               </div>
   
               {/* <!-- form: message --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <textarea
-                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full  w-full'
+                className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full  w-80'
                   id="message"
                   type="text"
                   placeholder="Enter your message here..."
@@ -65,7 +68,8 @@ export function Contact() {
                   name="message"
                   required>
 
-                  </textarea><label htmlFor="message">Message</label>
+                  </textarea>
+                  <br /><label htmlFor="message">Message</label>
               </div>
   
           
