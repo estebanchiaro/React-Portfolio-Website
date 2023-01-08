@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-export default function Contact() {
+export function Contact() {
   return (
 
-    <div >
+    <div className='shadow-lg rounded' >
      <h3 className="text-3xl py-10 dark:text-cyan-50">
             {" "}
             Contact Me
@@ -21,7 +20,7 @@ export default function Contact() {
               {/* <!-- form: name --> */}
               <div className='py-4 dark:text-cyan-50' >
                 <input
-                className='rounded-full w-full '
+                className='rounded-full w-full hover:scale-125 transition delay-100 duration-300 ease-in-out'
                   id="name"
                   type="text"
                   placeholder="Enter your name..."
@@ -34,7 +33,7 @@ export default function Contact() {
               {/* <!-- form: email --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                className='form-input rounded-full w-full'
+                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full w-full'
                   id="email"
                   type="email"
                   placeholder="name@example.com"
@@ -46,7 +45,7 @@ export default function Contact() {
               {/* <!-- form: phone number --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                                className='form-input rounded-full w-full'
+                                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full w-full'
                   id="phone"
                   type="tel"
                   placeholder="(123) 456-7890"
@@ -58,7 +57,7 @@ export default function Contact() {
               {/* <!-- form: message --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <textarea
-                className='form-input rounded-full  w-full'
+                className='hover:scale-125 transition delay-100 duration-300 ease-in-out form-input rounded-full  w-full'
                   id="message"
                   type="text"
                   placeholder="Enter your message here..."
@@ -70,7 +69,7 @@ export default function Contact() {
               </div>
   
           
-              <button className="mt-10 mb-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-3xl hover:scale-125 transition delay-100 duration-300 ease-in-out" type="submit">Send</button>
+              <button className=" mt-10 mb-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-3xl hover:scale-125 transition delay-100 duration-300 ease-in-out" type="submit">Send</button>
             </form>
           
           </div>

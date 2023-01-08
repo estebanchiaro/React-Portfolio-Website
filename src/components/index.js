@@ -1,0 +1,6 @@
+export * from './Navbar'
+export * from './CardProject'
+export * from './Contact'
+export * from './Hero'
+export * from './About'
+export * from './Projects'

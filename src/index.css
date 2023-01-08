@@ -12,5 +12,5 @@ body{box-sizing: border-box;
 
 @font-face {
   font-family: "burtons";
-  src: url('../public/public/Burtons.otf');
+  src: url('../public/Burtons.otf');
 }
