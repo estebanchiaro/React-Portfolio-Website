@@ -20,7 +20,7 @@ export function Contact() {
               {/* <!-- form: name --> */}
               <div className='py-4 dark:text-cyan-50' >
                 <input
-                className='rounded-full w-80 hover:scale-110 transition delay-100 duration-300 ease-in-out'
+                className='text-black rounded-full w-80 hover:scale-110 transition delay-100 duration-300 ease-in-out'
                   id="name"
                   type="text"
                   placeholder="Enter your name..."
@@ -34,7 +34,7 @@ export function Contact() {
               {/* <!-- form: email --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
+                className='text-black hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
                   id="email"
                   type="email"
                   placeholder="name@example.com"
@@ -47,7 +47,7 @@ export function Contact() {
               {/* <!-- form: phone number --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <input
-                  className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
+                  className='text-black hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full w-80'
                   id="phone"
                   type="tel"
                   placeholder="(123) 456-7890"
@@ -60,7 +60,7 @@ export function Contact() {
               {/* <!-- form: message --> */}
               <div className='py-4 dark:text-cyan-50'>
                 <textarea
-                className='hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full  w-80'
+                className='text-black hover:scale-110 transition delay-100 duration-300 ease-in-out form-input rounded-full  w-80'
                   id="message"
                   type="text"
                   placeholder="Enter your message here..."
