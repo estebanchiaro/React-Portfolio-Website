@@ -7,7 +7,7 @@ export function Projects({children}) {
             {" "}
             Portfolio Projects
           </h3>
-          <div className="grid gap-6 place-items-center md:grid-cols-2 xl:grid-cols-4 max-w-auto">
+          <div className="grid gap-12 place-items-center md:grid-cols-2 xl:grid-cols-4 max-w-auto">
             {children}
           </div>
     </section>
